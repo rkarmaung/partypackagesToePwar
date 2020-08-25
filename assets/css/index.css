@@ -186,7 +186,7 @@ nav{
 /* Section 1 -  - end */
 
 /* banner start */
-.banner1{position: relative;}
+.banner1{position: relative; margin-top: 100px;}
 .bannerImgContainer{
   width: 100%;
   overflow: hidden;
@@ -431,30 +431,13 @@ nav{
 
 .cards{
   width: 204px;
+  height: 250px;
   overflow: hidden; 
   position: relative; 
 }
 
 .cards img{
-  width: 100%;
-}
-
-.sec4CardsOverlay{
-  border: 1px solid red;
-  padding: 3%;
-  position: absolute;
-  width: 204px;
-  height: 135px;
-  background-color: black;
-  opacity: 0.5;
-}
-
-.sec4CardsOverlay:hover {
-  transform: scale(1.1);
-}
-
-.cards:hover .sec4CardsOverlay{
-  display: none;
+  width: 190%;
 }
 
 .sec3Description {
